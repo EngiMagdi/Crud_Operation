@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title> ADD STUDENT FORM</title>
+</head>
+<body>
+  <!-- form  -->
+  <section  class="md:pt-12 py-7   student_form  ">
+    <div class="  p-7   mx-auto  bg-white shadow-lg  rounded-lg w-3/4 md:w-1/2">
+        <h3 class="text-center text-lg md:text-3xl pb-3  addFormTitle text-primary"> Add New Student</h3>
+
+        <form >
+         <p class="error py-1 AddEmptyErrorMsg hide" > Sorry, you should enter all data correctly</p>
+  
+            <label  class="form-label">Name </label>
+            <input type="text" class="form-control" id="student-Name">
+          
+            <label  class="form-label mt-3">Email </label>
+            <input type="email" class="form-control" id="student-Email">
+          
+          
+            <label  class="form-label mt-3"> Phone</label>
+            <input type="tel" class="form-control" id="student-Phone">
+          
+            <label  class="form-label mt-3">  Enroll Number</label>
+            <input type="number" class="form-control" id="student-EnrollNumber">
+          
+            <label  class="form-label mt-3">Date of admission</label>
+            <input type="date" class="form-control" id="student-DateOfAdmission">
+          
+       
+          <button type="submit" id="addBtn" class="btn btn-primary w-100 mx-auto text-center mt-3 " onclick='addStudent()'> Add Student</button>
+    
+        </form>
+      </div>
+  </section>
+ 
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

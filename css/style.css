@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter var' ,sans-serif;
+}
+
+/* login & submit */
+.login_form{
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    height: 100vh;
+}
+
+.login_form form h3 {
+    /* text-shadow: 2px 2px px #333333; */
+text-shadow: 2px 4px 2px #707070;
+}
+.login_form form h3 span{
+    color: #F8D442;
+    text-shadow: none;
+  
+}
+.login_form form .btn{ background-color: #FEAF00;}
+.SignUp_form form #submite-btn{ background-color: navy;}
+
+.login_form form p a{color: #FEAF00;}
+
+.gray{color:#6C6C6C}
+
+/* ////////////////////////////////////////////////// */
+/* home */
+.fixed-nav h3 span{
+    color:#FEAF00;
+  
+}
+.active,.fixed-nav ul li:hover,.fixed-nav ul li:active{
+background-color: #FEAF00;
+}
+.box{width: 255px;height:157px; }
+
+.boxStudents{ background-color: #F0F9FF;}
+.box .fa-graduation-cap{color: #74C1ED;}
+
+.boxCourse{background: #FEF6FB;}
+.box .fa-bookmark{color: #EE95C5 ;}
+
+.boxPayment{background-color: #FEFBEC;}
+.box .fa-money-check-dollar{ color:#F6C762;}
+
+.boxUser{    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);}
+
+
+
+/* student list */
+.addNewStudent-btn{ background-color: #FEAF00;}
+.student_form{
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+.addFormTitle{ font-family: "Dancing Script", cursive;}
+/* error */
+.error{
+    /* border: 2px solid red !important; */
+    color:red
+}
+.hide{display: none;}
+/* thanks page */
+.thanksDiv h2,.thanksDiv h3 span a{
+    font-family: "Dancing Script", cursive;
+    color: #FEAF00;}
+/* //////////////////////////////////////////////////////////////////////////////////////// */
+/* sideBar */
+
+#updateBtn,#deleteBtn{
+    background-color: transparent;
+    border: none;}
+
+    .sideBar{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 20%;
+        overflow: hidden;
+    }
+    .mainDIV{margin-left: 20%;
+    }
+
+
+
+
+
+
+
+
+
+/* md */
+/* @media screen and (min-width:768px)and (max-width:992px) {
+    .sideBar{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 200px;
+        overflow: hidden;
+    }
+    .mainDIV{margin-left: 200px;
+    }
+} */
+/* lg */
+/* @media screen and (min-width:992px){
+    .sideBar{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 220px;
+        overflow: hidden;
+    }
+    .mainDIV{margin-left: 220px;
+     
+
+
+}} */

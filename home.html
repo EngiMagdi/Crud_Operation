@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title> home</title>
+
+</head>
+<body>
+
+
+       <!-- fixed leftnav -->
+       <div class="fixed-nav sideBar   bg-pink-100 z-10 ">
+        <!-- title -->
+        <h3 class="text-center font-bold py-3 "> <span> | </span>CRUD OPEARATION</h3> 
+        <!-- logo img -->
+    
+        <div class="w-1/2 mx-auto rounded-full mt-5"><img src="profile.jpg" alt="profile img" srcset="" class="rounded-full" width="100%" height="100%"></div>
+    
+        <h2 class="text-center  pt-4 pb-2">Khadiga Medesh</h2>
+    
+        <h3 class= "text-center"><span >Admin</span></h3>
+        <!-- list -->
+        <!-- فاضل الايكون -->
+        <div class="text-center mt-12">
+            <ul class="w-7/12 mx-auto ">
+                <li class="p-2  mb-2  active"><a href="home.html"> <i class="fa-solid fa-house pe-2"></i>Home</a></li>
+                <li class="p-2  mb-2  " ><a href=""> <i class="fa-solid fa-bookmark pe-2"></i>Course</a></li>
+                <li  class="p-2  mb-2  "><a href="studentList.html"><i class="fa-solid fa-graduation-cap pe-2"></i>Students</a> </li>
+                <li class="p-2  mb-2   "><a href=""><i class="fa-solid fa-money-check-dollar pe-2"></i>Payment</a></li>
+                <li class="p-2  mb-9 " ><a href=""><i class="fa-solid fa-sliders pe-2"></i>Settings </a></li>
+                <li class="p-2 " ><a href="index.html">Logout  <i class="fa-solid fa-arrow-right-from-bracket ps-2"></i></a></li>
+            </ul>
+        </div>
+    
+    </div>
+
+
+    
+    <!-- MAIN PAGE  fixed  right-3 grid grid-cols-4 gap-1-->
+    <div class="d-flex  mainDIV md:px-9 px-2  pt-12 " >
+        <div class="box boxStudents p-3 me-3 md:me-12 rounded-md ">
+            <!-- icon -->
+            <p><i class="fa-solid fa-graduation-cap text-2xl py-2"></i></p>
+            <p>Students</p>
+            <!-- <p class=" relative  top-0 left-0"> -->
+                <span id="StCounter " class=""> 233</span>
+            <!-- </p> -->
+        </div>
+
+        <!-- Course -->
+        <div class="boxCourse p-3 box me-3 md:me-12  rounded-md">
+            <!-- icon -->
+            <p><i class="fa-solid fa-bookmark text-2xl py-2"></i></p>
+            <p> Course</p>
+            <span id="CourseCounter"> 233</span>
+        </div>
+
+        <!-- Payment -->
+        <div class="boxPayment box p-3 me-3 md:me-12  rounded-md">
+            <!-- icon -->
+            <p><i class="fa-solid fa-money-check-dollar text-2xl py-2"></i></p>
+            <p>Payment</p>
+            <span id=">PayCounter"> 233</span>
+        </div>
+
+        <!-- Users -->
+        <div class="boxUser p-3 box  rounded-md" >
+            <!-- icon -->
+            <p><i class="fa-solid fa-user text-white text-2xl py-2"></i></p>
+            <p><a href="studentList.html"> Users</a></p>
+            <span id="StCounter"> 233</span>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
